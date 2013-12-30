@@ -637,6 +637,10 @@
 
     this.reload(startingOptions);
 
+	this.autoPlay = function(bool){			//we pass true to stop/pause the autoplay. Though perhaps it seems better the other way round
+		autoPlay(bool);
+	}
+
     return this;
   };
 
